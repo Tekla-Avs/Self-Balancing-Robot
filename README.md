@@ -24,11 +24,11 @@ On each level there is a hole where wires go through to make sure that they are 
 
 ## Software
 
+Upon boot, the ESP32 hosts a local web server and prints its IP address to the Serial Monitor. Opening this link in your browser provides a live dashboard where you can adjust the PID parameters.  
+Traditionally, tuning a balancing robot requires changing variables in the code, recompiling, and re-uploading via a USB cable for every tiny adjustment. This web interface allows you to tweak the values over the air in real time while the robot is actively balancing, saving hours of trial and error and allowing the robot to remain completely untethered.
 
 
-
-
-## Pinout
+## Pin Confoguration
 
 | MPU6050 | ESP32  |
 |---------|--------|
