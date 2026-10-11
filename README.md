@@ -1,5 +1,6 @@
 # Self-Balancing-Robot
-Built on ESP32 using MPU6050 and TB6612FNG supporting wireless PID parameter adjustment and live telemetry broadcasting.
+Built on ESP32 using MPU6050 and TB6612FNG supporting wireless PID parameter adjustment and live telemetry broadcasting.  
+I used PlatformIO in VScode for the code and 3D printer to print the body of the robot.  
 
 ## Hardware
 The project combines:  
