@@ -76,4 +76,4 @@ On each level there is a hole where wires go through to make sure that they are 
 |Positive | Buck IN+ |
 |Negative | TB6612FNG GND|
 
-**P.S.** Between Battery+ and TB6612FNG's VM, I have inserted a switch.
+**P.S.** Between Battery+ and TB6612FNG VM, I have inserted a switch.
