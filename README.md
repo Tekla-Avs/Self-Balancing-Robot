@@ -30,20 +30,6 @@ On each level there is a hole where wires go through to make sure that they are 
 
 ## Pinout
 
-| Buck | Battery |
-|------|---------|
-|  IN+ | positive|
-|  IN- | TB6612FNG's GND|
-| OUT+ |  ESP32's VIN|
-| OUT- | TB6612FNG's GND|
-
-
-| Battery | other |
-|---------|------|
-|positive | Buck IN+ |
-|negative | TB6612FNG's GND|
-
-
 | MPU6050 | ESP32  |
 |---------|--------|
 | VCCIN   | 3.3V   |
@@ -66,13 +52,27 @@ On each level there is a hole where wires go through to make sure that they are 
 
 | TB6612FNG | Other |
 |---------|-------|
-|VM       |   battery+ & Buck's IN+|
-|VCC      |   3.3V|
-|GND      |   Buck's IN- & OUT-|
+|VM       |  Batteries+ & Buck IN+|
+|VCC      |  3.3V|
+|GND      |  Buck IN- & Buck OUT-|
 |A01      |  motor A leg|
 |A02      |  motor A other leg|
 |B02      |  motor B leg|
 |B01      |  motor B other leg|
 |GND      | Battery-|
+
+
+| Buck | Other |
+|------|---------|
+|  IN+ | Batteries+|
+|  IN- | TB6612FNG GND|
+| OUT+ |  ESP32 VIN|
+| OUT- | TB6612FNG GND|
+
+
+| Battery | other |
+|---------|------|
+|Positive | Buck IN+ |
+|Negative | TB6612FNG GND|
 
 **P.S.** Between battery+ and TB6612FNG's VM, I have inserted a switch.
