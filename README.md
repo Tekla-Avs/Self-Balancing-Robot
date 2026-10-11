@@ -30,13 +30,6 @@ On each level there is a hole where wires go through to make sure that they are 
 
 ## Pinout
 
-| Battery | other |
-|---------|------|
-|positive | Buck IN+ |
-|negative | TB6612FNG's GND|
-
-
-
 | Buck | Battery |
 |------|---------|
 |  IN+ | positive|
@@ -45,6 +38,11 @@ On each level there is a hole where wires go through to make sure that they are 
 | OUT- | TB6612FNG's GND|
 
 
+| Battery | other |
+|---------|------|
+|positive | Buck IN+ |
+|negative | TB6612FNG's GND|
+
 
 | MPU6050 | ESP32  |
 |---------|--------|
@@ -52,7 +50,6 @@ On each level there is a hole where wires go through to make sure that they are 
 |  GND    | GND    |
 |  SCL    | GPIO 22|
 |  SDA    | GPIO 21|
-
 
 
 | ESP32 | TB6612FNG|
@@ -67,7 +64,6 @@ On each level there is a hole where wires go through to make sure that they are 
 |GND    |  GND|
 
 
-
 | TB6612FNG | Other |
 |---------|-------|
 |VM       |   battery+ & Buck's IN+|
@@ -80,6 +76,3 @@ On each level there is a hole where wires go through to make sure that they are 
 |GND      | Battery-|
 
 **P.S.** Between battery+ and TB6612FNG's VM, I have inserted a switch.
-
-
-batteries
