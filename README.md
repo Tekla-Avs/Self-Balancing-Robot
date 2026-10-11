@@ -52,7 +52,7 @@ On each level there is a hole where wires go through to make sure that they are 
 
 | TB6612FNG | Other |
 |---------|-------|
-|VM       |  Batteries+ & Buck IN+|
+|VM       |  Battery+ & Buck IN+|
 |VCC      |  3.3V|
 |GND      |  Buck IN- & Buck OUT-|
 |A01      |  motor A leg|
@@ -64,7 +64,7 @@ On each level there is a hole where wires go through to make sure that they are 
 
 | Buck | Other |
 |------|---------|
-|  IN+ | Batteries+|
+|  IN+ | Battery+|
 |  IN- | TB6612FNG GND|
 | OUT+ |  ESP32 VIN|
 | OUT- | TB6612FNG GND|
@@ -75,4 +75,4 @@ On each level there is a hole where wires go through to make sure that they are 
 |Positive | Buck IN+ |
 |Negative | TB6612FNG GND|
 
-**P.S.** Between battery+ and TB6612FNG's VM, I have inserted a switch.
+**P.S.** Between Battery+ and TB6612FNG's VM, I have inserted a switch.
