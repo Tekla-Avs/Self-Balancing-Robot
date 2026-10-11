@@ -1,6 +1,5 @@
 # Self-Balancing-Robot
-Built on ESP32 using MPU6050 and TB6612FNG supporting wireless PID parameter adjustment and live telemetry broadcasting.  
-I used PlatformIO in VScode for the code and 3D printer to print the body of the robot.  
+This project is an autonomous, two-wheeled robot designed to continuously balance itself using real-time motion calculations. At its core, an ESP32 microcontroller processes tilt and acceleration data from an MPU6050 sensor, then dictates precise counter-movements to the wheels to prevent the robot from falling. Beyond basic balancing, the system leverages the ESP32 to act as a smart, connected platform, supporting wireless PID parameter adjustment and live telemetry broadcasting.
 
 ## Hardware
 The project combines:  
