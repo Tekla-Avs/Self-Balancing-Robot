@@ -14,7 +14,7 @@ The project combines:
 
 To hold every component in place I designed a three-story body of a robot:  
 - the lower one holds ESP32.
-- the middle one hold MPU6050 in the perfect center of the robot layed horizontally and TB6612FNG on the side.
+- the middle one hold MPU6050 in the perfect center of the robot laid horizontally and TB6612FNG on the side.
 - the upper holds batteries and a buck next to it. Weight on top makes the robot react to the fall earlier.
 
 Some would think the batteries at the lowest floor would make the system more stable, and that could totally be true :)
